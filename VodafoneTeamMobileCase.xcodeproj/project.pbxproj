@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25824B8F2982FDD900F9828F /* AppDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25824B8E2982FDD900F9828F /* AppDetailsView.swift */; };
+		25824B91298300AD00F9828F /* BookDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25824B90298300AD00F9828F /* BookDetailsView.swift */; };
+		25824B932983017100F9828F /* MoviesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25824B922983017100F9828F /* MoviesDetailView.swift */; };
+		25824B952983043A00F9828F /* MusicDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25824B942983043A00F9828F /* MusicDetailView.swift */; };
+		25CF44032982F8900018EB65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25CF44022982F8900018EB65 /* Preview Assets.xcassets */; };
+		25CF44602982FADA0018EB65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25CF44242982FADA0018EB65 /* Assets.xcassets */; };
+		25CF44612982FADA0018EB65 /* VodafoneTeamMobileCaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF44262982FADA0018EB65 /* VodafoneTeamMobileCaseApp.swift */; };
+		25CF44622982FADA0018EB65 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF44272982FADA0018EB65 /* AppEnvironment.swift */; };
+		25CF44632982FADA0018EB65 /* MusicSearchResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF442A2982FADA0018EB65 /* MusicSearchResultModel.swift */; };
+		25CF44642982FADA0018EB65 /* MusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF442B2982FADA0018EB65 /* MusicModel.swift */; };
+		25CF44652982FADA0018EB65 /* MoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF442D2982FADA0018EB65 /* MoviesModel.swift */; };
+		25CF44662982FADA0018EB65 /* MovieSearchResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF442E2982FADA0018EB65 /* MovieSearchResultModel.swift */; };
+		25CF44672982FADA0018EB65 /* BooksSearchResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF44302982FADA0018EB65 /* BooksSearchResultModel.swift */; };
+		25CF44682982FADA0018EB65 /* BooksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF44312982FADA0018EB65 /* BooksModel.swift */; };
+		25CF44692982FADA0018EB65 /* SoftwareModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF44332982FADA0018EB65 /* SoftwareModel.swift */; };
+		25CF446A2982FADA0018EB65 /* SoftwareSearchResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF44342982FADA0018EB65 /* SoftwareSearchResultModel.swift */; };
+		25CF446B2982FADA0018EB65 /* Music+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF44372982FADA0018EB65 /* Music+UI.swift */; };
+		25CF446C2982FADA0018EB65 /* MusicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF44382982FADA0018EB65 /* MusicViewModel.swift */; };
+		25CF446D2982FADA0018EB65 /* MusicData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF44392982FADA0018EB65 /* MusicData.swift */; };
+		25CF446E2982FADA0018EB65 /* MusicScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF443A2982FADA0018EB65 /* MusicScene.swift */; };
+		25CF446F2982FADA0018EB65 /* BooksData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF443C2982FADA0018EB65 /* BooksData.swift */; };
+		25CF44702982FADA0018EB65 /* BooksScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF443D2982FADA0018EB65 /* BooksScene.swift */; };
+		25CF44712982FADA0018EB65 /* Books+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF443E2982FADA0018EB65 /* Books+UI.swift */; };
+		25CF44722982FADA0018EB65 /* BooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF443F2982FADA0018EB65 /* BooksViewModel.swift */; };
+		25CF44732982FADA0018EB65 /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF44412982FADA0018EB65 /* TabData.swift */; };
+		25CF44742982FADA0018EB65 /* TabScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF44422982FADA0018EB65 /* TabScene.swift */; };
+		25CF44752982FADA0018EB65 /* TabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF44432982FADA0018EB65 /* TabViewModel.swift */; };
+		25CF44762982FADA0018EB65 /* Tab+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF44442982FADA0018EB65 /* Tab+UI.swift */; };
+		25CF44772982FADA0018EB65 /* MoviesScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF44462982FADA0018EB65 /* MoviesScene.swift */; };
+		25CF44782982FADA0018EB65 /* Movies+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF44472982FADA0018EB65 /* Movies+UI.swift */; };
+		25CF44792982FADA0018EB65 /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF44482982FADA0018EB65 /* MoviesViewModel.swift */; };
+		25CF447A2982FADA0018EB65 /* MoviesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF44492982FADA0018EB65 /* MoviesData.swift */; };
+		25CF447B2982FADA0018EB65 /* AppsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF444B2982FADA0018EB65 /* AppsScene.swift */; };
+		25CF447C2982FADA0018EB65 /* Apps+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF444C2982FADA0018EB65 /* Apps+UI.swift */; };
+		25CF447D2982FADA0018EB65 /* AppsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF444D2982FADA0018EB65 /* AppsViewModel.swift */; };
+		25CF447E2982FADA0018EB65 /* AppsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF444E2982FADA0018EB65 /* AppsData.swift */; };
+		25CF44802982FADA0018EB65 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF44522982FADA0018EB65 /* Constants.swift */; };
+		25CF44812982FADA0018EB65 /* Constants+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF44532982FADA0018EB65 /* Constants+API.swift */; };
+		25CF44822982FADA0018EB65 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF44552982FADA0018EB65 /* TabItem.swift */; };
+		25CF44832982FADA0018EB65 /* MusicFilterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF44572982FADA0018EB65 /* MusicFilterType.swift */; };
+		25CF44842982FADA0018EB65 /* BooksFilterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF44582982FADA0018EB65 /* BooksFilterType.swift */; };
+		25CF44852982FADA0018EB65 /* MoviesFilterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF44592982FADA0018EB65 /* MoviesFilterType.swift */; };
+		25CF44862982FADA0018EB65 /* AppFilterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF445A2982FADA0018EB65 /* AppFilterType.swift */; };
+		25CF44872982FADA0018EB65 /* DateFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF445C2982FADA0018EB65 /* DateFormatter+Extension.swift */; };
+		25CF44882982FADA0018EB65 /* AlertContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF445E2982FADA0018EB65 /* AlertContainer.swift */; };
+		25CF44892982FADA0018EB65 /* SheetContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF445F2982FADA0018EB65 /* SheetContainers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25824B8E2982FDD900F9828F /* AppDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailsView.swift; sourceTree = "<group>"; };
+		25824B90298300AD00F9828F /* BookDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsView.swift; sourceTree = "<group>"; };
+		25824B922983017100F9828F /* MoviesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesDetailView.swift; sourceTree = "<group>"; };
+		25824B942983043A00F9828F /* MusicDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDetailView.swift; sourceTree = "<group>"; };
+		25CF43F82982F88F0018EB65 /* VodafoneTeamMobileCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VodafoneTeamMobileCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25CF44022982F8900018EB65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		25CF44092982F8A20018EB65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		25CF44242982FADA0018EB65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25CF44262982FADA0018EB65 /* VodafoneTeamMobileCaseApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VodafoneTeamMobileCaseApp.swift; sourceTree = "<group>"; };
+		25CF44272982FADA0018EB65 /* AppEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		25CF442A2982FADA0018EB65 /* MusicSearchResultModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicSearchResultModel.swift; sourceTree = "<group>"; };
+		25CF442B2982FADA0018EB65 /* MusicModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicModel.swift; sourceTree = "<group>"; };
+		25CF442D2982FADA0018EB65 /* MoviesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesModel.swift; sourceTree = "<group>"; };
+		25CF442E2982FADA0018EB65 /* MovieSearchResultModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieSearchResultModel.swift; sourceTree = "<group>"; };
+		25CF44302982FADA0018EB65 /* BooksSearchResultModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksSearchResultModel.swift; sourceTree = "<group>"; };
+		25CF44312982FADA0018EB65 /* BooksModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksModel.swift; sourceTree = "<group>"; };
+		25CF44332982FADA0018EB65 /* SoftwareModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoftwareModel.swift; sourceTree = "<group>"; };
+		25CF44342982FADA0018EB65 /* SoftwareSearchResultModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoftwareSearchResultModel.swift; sourceTree = "<group>"; };
+		25CF44372982FADA0018EB65 /* Music+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Music+UI.swift"; sourceTree = "<group>"; };
+		25CF44382982FADA0018EB65 /* MusicViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicViewModel.swift; sourceTree = "<group>"; };
+		25CF44392982FADA0018EB65 /* MusicData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicData.swift; sourceTree = "<group>"; };
+		25CF443A2982FADA0018EB65 /* MusicScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicScene.swift; sourceTree = "<group>"; };
+		25CF443C2982FADA0018EB65 /* BooksData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksData.swift; sourceTree = "<group>"; };
+		25CF443D2982FADA0018EB65 /* BooksScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksScene.swift; sourceTree = "<group>"; };
+		25CF443E2982FADA0018EB65 /* Books+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Books+UI.swift"; sourceTree = "<group>"; };
+		25CF443F2982FADA0018EB65 /* BooksViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksViewModel.swift; sourceTree = "<group>"; };
+		25CF44412982FADA0018EB65 /* TabData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
+		25CF44422982FADA0018EB65 /* TabScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabScene.swift; sourceTree = "<group>"; };
+		25CF44432982FADA0018EB65 /* TabViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewModel.swift; sourceTree = "<group>"; };
+		25CF44442982FADA0018EB65 /* Tab+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tab+UI.swift"; sourceTree = "<group>"; };
+		25CF44462982FADA0018EB65 /* MoviesScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesScene.swift; sourceTree = "<group>"; };
+		25CF44472982FADA0018EB65 /* Movies+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Movies+UI.swift"; sourceTree = "<group>"; };
+		25CF44482982FADA0018EB65 /* MoviesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
+		25CF44492982FADA0018EB65 /* MoviesData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesData.swift; sourceTree = "<group>"; };
+		25CF444B2982FADA0018EB65 /* AppsScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsScene.swift; sourceTree = "<group>"; };
+		25CF444C2982FADA0018EB65 /* Apps+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Apps+UI.swift"; sourceTree = "<group>"; };
+		25CF444D2982FADA0018EB65 /* AppsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsViewModel.swift; sourceTree = "<group>"; };
+		25CF444E2982FADA0018EB65 /* AppsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsData.swift; sourceTree = "<group>"; };
+		25CF44522982FADA0018EB65 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		25CF44532982FADA0018EB65 /* Constants+API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Constants+API.swift"; sourceTree = "<group>"; };
+		25CF44552982FADA0018EB65 /* TabItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		25CF44572982FADA0018EB65 /* MusicFilterType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicFilterType.swift; sourceTree = "<group>"; };
+		25CF44582982FADA0018EB65 /* BooksFilterType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksFilterType.swift; sourceTree = "<group>"; };
+		25CF44592982FADA0018EB65 /* MoviesFilterType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesFilterType.swift; sourceTree = "<group>"; };
+		25CF445A2982FADA0018EB65 /* AppFilterType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFilterType.swift; sourceTree = "<group>"; };
+		25CF445C2982FADA0018EB65 /* DateFormatter+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extension.swift"; sourceTree = "<group>"; };
+		25CF445E2982FADA0018EB65 /* AlertContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertContainer.swift; sourceTree = "<group>"; };
+		25CF445F2982FADA0018EB65 /* SheetContainers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetContainers.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25CF43F52982F88F0018EB65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25CF43EF2982F88F0018EB65 = {
+			isa = PBXGroup;
+			children = (
+				25CF43FA2982F88F0018EB65 /* VodafoneTeamMobileCase */,
+				25CF43F92982F88F0018EB65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25CF43F92982F88F0018EB65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25CF43F82982F88F0018EB65 /* VodafoneTeamMobileCase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25CF43FA2982F88F0018EB65 /* VodafoneTeamMobileCase */ = {
+			isa = PBXGroup;
+			children = (
+				25CF44252982FADA0018EB65 /* App */,
+				25CF44282982FADA0018EB65 /* Model */,
+				25CF44232982FADA0018EB65 /* Resources */,
+				25CF44352982FADA0018EB65 /* Scene */,
+				25CF44502982FADA0018EB65 /* Utilities */,
+				25CF44092982F8A20018EB65 /* Info.plist */,
+				25CF44012982F8900018EB65 /* Preview Content */,
+			);
+			path = VodafoneTeamMobileCase;
+			sourceTree = "<group>";
+		};
+		25CF44012982F8900018EB65 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				25CF44022982F8900018EB65 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		25CF44232982FADA0018EB65 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				25CF44242982FADA0018EB65 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		25CF44252982FADA0018EB65 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				25CF44262982FADA0018EB65 /* VodafoneTeamMobileCaseApp.swift */,
+				25CF44272982FADA0018EB65 /* AppEnvironment.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		25CF44282982FADA0018EB65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				25CF44292982FADA0018EB65 /* Music */,
+				25CF442C2982FADA0018EB65 /* Movie */,
+				25CF442F2982FADA0018EB65 /* Books */,
+				25CF44322982FADA0018EB65 /* Software */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		25CF44292982FADA0018EB65 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				25CF442A2982FADA0018EB65 /* MusicSearchResultModel.swift */,
+				25CF442B2982FADA0018EB65 /* MusicModel.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		25CF442C2982FADA0018EB65 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				25CF442D2982FADA0018EB65 /* MoviesModel.swift */,
+				25CF442E2982FADA0018EB65 /* MovieSearchResultModel.swift */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		25CF442F2982FADA0018EB65 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				25CF44302982FADA0018EB65 /* BooksSearchResultModel.swift */,
+				25CF44312982FADA0018EB65 /* BooksModel.swift */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+		25CF44322982FADA0018EB65 /* Software */ = {
+			isa = PBXGroup;
+			children = (
+				25CF44332982FADA0018EB65 /* SoftwareModel.swift */,
+				25CF44342982FADA0018EB65 /* SoftwareSearchResultModel.swift */,
+			);
+			path = Software;
+			sourceTree = "<group>";
+		};
+		25CF44352982FADA0018EB65 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				25CF444A2982FADA0018EB65 /* Apps */,
+				25CF443B2982FADA0018EB65 /* Books */,
+				25CF44452982FADA0018EB65 /* Movies */,
+				25CF44362982FADA0018EB65 /* Music */,
+				25CF44402982FADA0018EB65 /* Tab */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		25CF44362982FADA0018EB65 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				25CF44372982FADA0018EB65 /* Music+UI.swift */,
+				25CF44382982FADA0018EB65 /* MusicViewModel.swift */,
+				25CF44392982FADA0018EB65 /* MusicData.swift */,
+				25CF443A2982FADA0018EB65 /* MusicScene.swift */,
+				25824B942983043A00F9828F /* MusicDetailView.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		25CF443B2982FADA0018EB65 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				25CF443C2982FADA0018EB65 /* BooksData.swift */,
+				25CF443D2982FADA0018EB65 /* BooksScene.swift */,
+				25CF443E2982FADA0018EB65 /* Books+UI.swift */,
+				25CF443F2982FADA0018EB65 /* BooksViewModel.swift */,
+				25824B90298300AD00F9828F /* BookDetailsView.swift */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+		25CF44402982FADA0018EB65 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				25CF44412982FADA0018EB65 /* TabData.swift */,
+				25CF44422982FADA0018EB65 /* TabScene.swift */,
+				25CF44432982FADA0018EB65 /* TabViewModel.swift */,
+				25CF44442982FADA0018EB65 /* Tab+UI.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		25CF44452982FADA0018EB65 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				25CF44462982FADA0018EB65 /* MoviesScene.swift */,
+				25CF44472982FADA0018EB65 /* Movies+UI.swift */,
+				25CF44482982FADA0018EB65 /* MoviesViewModel.swift */,
+				25CF44492982FADA0018EB65 /* MoviesData.swift */,
+				25824B922983017100F9828F /* MoviesDetailView.swift */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		25CF444A2982FADA0018EB65 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				25CF444B2982FADA0018EB65 /* AppsScene.swift */,
+				25CF444C2982FADA0018EB65 /* Apps+UI.swift */,
+				25CF444D2982FADA0018EB65 /* AppsViewModel.swift */,
+				25CF444E2982FADA0018EB65 /* AppsData.swift */,
+				25824B8E2982FDD900F9828F /* AppDetailsView.swift */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		25CF44502982FADA0018EB65 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				25CF44512982FADA0018EB65 /* Constants */,
+				25CF44542982FADA0018EB65 /* Enums */,
+				25CF445B2982FADA0018EB65 /* Extensions */,
+				25CF445D2982FADA0018EB65 /* Containers */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		25CF44512982FADA0018EB65 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				25CF44522982FADA0018EB65 /* Constants.swift */,
+				25CF44532982FADA0018EB65 /* Constants+API.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		25CF44542982FADA0018EB65 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				25CF44552982FADA0018EB65 /* TabItem.swift */,
+				25CF44562982FADA0018EB65 /* Filter Types */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		25CF44562982FADA0018EB65 /* Filter Types */ = {
+			isa = PBXGroup;
+			children = (
+				25CF44572982FADA0018EB65 /* MusicFilterType.swift */,
+				25CF44582982FADA0018EB65 /* BooksFilterType.swift */,
+				25CF44592982FADA0018EB65 /* MoviesFilterType.swift */,
+				25CF445A2982FADA0018EB65 /* AppFilterType.swift */,
+			);
+			path = "Filter Types";
+			sourceTree = "<group>";
+		};
+		25CF445B2982FADA0018EB65 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				25CF445C2982FADA0018EB65 /* DateFormatter+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		25CF445D2982FADA0018EB65 /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				25CF445E2982FADA0018EB65 /* AlertContainer.swift */,
+				25CF445F2982FADA0018EB65 /* SheetContainers.swift */,
+			);
+			path = Containers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25CF43F72982F88F0018EB65 /* VodafoneTeamMobileCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25CF44062982F8900018EB65 /* Build configuration list for PBXNativeTarget "VodafoneTeamMobileCase" */;
+			buildPhases = (
+				25CF43F42982F88F0018EB65 /* Sources */,
+				25CF43F52982F88F0018EB65 /* Frameworks */,
+				25CF43F62982F88F0018EB65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VodafoneTeamMobileCase;
+			productName = VodafoneTeamMobileCase;
+			productReference = 25CF43F82982F88F0018EB65 /* VodafoneTeamMobileCase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25CF43F02982F88F0018EB65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					25CF43F72982F88F0018EB65 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 25CF43F32982F88F0018EB65 /* Build configuration list for PBXProject "VodafoneTeamMobileCase" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25CF43EF2982F88F0018EB65;
+			productRefGroup = 25CF43F92982F88F0018EB65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25CF43F72982F88F0018EB65 /* VodafoneTeamMobileCase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25CF43F62982F88F0018EB65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25CF44032982F8900018EB65 /* Preview Assets.xcassets in Resources */,
+				25CF44602982FADA0018EB65 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25CF43F42982F88F0018EB65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25CF446F2982FADA0018EB65 /* BooksData.swift in Sources */,
+				25CF446C2982FADA0018EB65 /* MusicViewModel.swift in Sources */,
+				25CF44732982FADA0018EB65 /* TabData.swift in Sources */,
+				25CF44632982FADA0018EB65 /* MusicSearchResultModel.swift in Sources */,
+				25CF44712982FADA0018EB65 /* Books+UI.swift in Sources */,
+				25CF446A2982FADA0018EB65 /* SoftwareSearchResultModel.swift in Sources */,
+				25CF44662982FADA0018EB65 /* MovieSearchResultModel.swift in Sources */,
+				25824B952983043A00F9828F /* MusicDetailView.swift in Sources */,
+				25CF446B2982FADA0018EB65 /* Music+UI.swift in Sources */,
+				25CF44852982FADA0018EB65 /* MoviesFilterType.swift in Sources */,
+				25CF44882982FADA0018EB65 /* AlertContainer.swift in Sources */,
+				25CF447A2982FADA0018EB65 /* MoviesData.swift in Sources */,
+				25CF44802982FADA0018EB65 /* Constants.swift in Sources */,
+				25CF447E2982FADA0018EB65 /* AppsData.swift in Sources */,
+				25CF44722982FADA0018EB65 /* BooksViewModel.swift in Sources */,
+				25CF44682982FADA0018EB65 /* BooksModel.swift in Sources */,
+				25CF44872982FADA0018EB65 /* DateFormatter+Extension.swift in Sources */,
+				25CF44702982FADA0018EB65 /* BooksScene.swift in Sources */,
+				25CF447D2982FADA0018EB65 /* AppsViewModel.swift in Sources */,
+				25CF446E2982FADA0018EB65 /* MusicScene.swift in Sources */,
+				25CF44812982FADA0018EB65 /* Constants+API.swift in Sources */,
+				25CF44692982FADA0018EB65 /* SoftwareModel.swift in Sources */,
+				25824B932983017100F9828F /* MoviesDetailView.swift in Sources */,
+				25CF446D2982FADA0018EB65 /* MusicData.swift in Sources */,
+				25824B91298300AD00F9828F /* BookDetailsView.swift in Sources */,
+				25824B8F2982FDD900F9828F /* AppDetailsView.swift in Sources */,
+				25CF44672982FADA0018EB65 /* BooksSearchResultModel.swift in Sources */,
+				25CF44862982FADA0018EB65 /* AppFilterType.swift in Sources */,
+				25CF447B2982FADA0018EB65 /* AppsScene.swift in Sources */,
+				25CF44762982FADA0018EB65 /* Tab+UI.swift in Sources */,
+				25CF44642982FADA0018EB65 /* MusicModel.swift in Sources */,
+				25CF44652982FADA0018EB65 /* MoviesModel.swift in Sources */,
+				25CF44612982FADA0018EB65 /* VodafoneTeamMobileCaseApp.swift in Sources */,
+				25CF44832982FADA0018EB65 /* MusicFilterType.swift in Sources */,
+				25CF447C2982FADA0018EB65 /* Apps+UI.swift in Sources */,
+				25CF44892982FADA0018EB65 /* SheetContainers.swift in Sources */,
+				25CF44742982FADA0018EB65 /* TabScene.swift in Sources */,
+				25CF44752982FADA0018EB65 /* TabViewModel.swift in Sources */,
+				25CF44622982FADA0018EB65 /* AppEnvironment.swift in Sources */,
+				25CF44782982FADA0018EB65 /* Movies+UI.swift in Sources */,
+				25CF44772982FADA0018EB65 /* MoviesScene.swift in Sources */,
+				25CF44792982FADA0018EB65 /* MoviesViewModel.swift in Sources */,
+				25CF44822982FADA0018EB65 /* TabItem.swift in Sources */,
+				25CF44842982FADA0018EB65 /* BooksFilterType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		25CF44042982F8900018EB65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25CF44052982F8900018EB65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25CF44072982F8900018EB65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VodafoneTeamMobileCase/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VodafoneTeamMobileCase/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eneshuseyinberker.VodofoneTeamCase.VodafoneTeamMobileCase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25CF44082982F8900018EB65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VodafoneTeamMobileCase/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VodafoneTeamMobileCase/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eneshuseyinberker.VodofoneTeamCase.VodafoneTeamMobileCase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25CF43F32982F88F0018EB65 /* Build configuration list for PBXProject "VodafoneTeamMobileCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25CF44042982F8900018EB65 /* Debug */,
+				25CF44052982F8900018EB65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25CF44062982F8900018EB65 /* Build configuration list for PBXNativeTarget "VodafoneTeamMobileCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25CF44072982F8900018EB65 /* Debug */,
+				25CF44082982F8900018EB65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25CF43F02982F88F0018EB65 /* Project object */;
+}
